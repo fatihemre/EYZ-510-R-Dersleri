@@ -10,8 +10,24 @@ Repo’nun amacı, derste yazılan kodları düzenli ve takip edilebilir bir yap
 
 Bu repo kapsamında ele alınan konular:
 
-* R programlama temelleri
-* Veri okuma, temizleme ve dönüştürme
+**Hafta 01 — R'a Giriş ve Temel Veri Yapıları**
+* R sözdizimi, aritmetik işlemler ve değişken tanımlama
+* Temel veri tipleri: sayısal, karakter ve mantıksal
+* Vektörler: oluşturma, indeksleme ve eleman bazlı işlemler
+* Temel istatistiksel fonksiyonlar: `mean()`, `median()`, `table()`, `summary()`
+* Data frame oluşturma ve veri seçme (indeksleme)
+* Kontrol yapıları: `if / else if / else`
+* Faktör kavramı ve `as.factor()` kullanımı
+
+**Hafta 02 — Veri Okuma, Analiz ve Görselleştirme**
+* R'ın yerleşik veri setlerini yükleme (`data()`)
+* Excel dosyası okuma (`readxl` paketi, `read_excel()`)
+* Keşifçi veri analizi: `str()`, `View()`, `summary()`, `table()`
+* Merkezi eğilim ve yayılım ölçüleri: ortalama, medyan, standart sapma
+* Temel görselleştirme: `barplot()` ve grafik özelleştirme (başlık, eksen etiketleri, renk)
+* `dplyr` ile veri manipülasyonu: `mutate()`, `recode()`, `across()` + `where()`
+* Pipe operatörü (`%>%`) kullanımı
+* Koşula dayalı satır filtreleme
 
 > Not: İçerik, haftalar ilerledikçe güncellenecek ve genişletilecektir.
 
